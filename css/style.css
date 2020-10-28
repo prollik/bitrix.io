@@ -581,11 +581,21 @@ body{
     }
 
 
+}
 
+@media screen and (max-width: 568px) {
 
+    .slider {
+        padding-top: 30px;
+    }
 }
 
 @media screen and (max-width: 430px) {
+
+    .slider {
+        padding-top: 25px;
+    }
+
     .slider__item h3 {
         font-size: 16px;
         line-height: 22px;
