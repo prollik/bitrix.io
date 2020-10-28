@@ -102,7 +102,7 @@ body{
 }
 
 .slider__item+.slider__item{
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .slider__item:nth-child(2n+1){
     background-color: #2B2BFE;
@@ -354,13 +354,15 @@ body{
 
 @media screen and (max-width: 1355px) {
 
+    .home{
+        padding: 0;
+    }
     .container {
         padding-right: 36px;
         padding-left: 36px;
     }
     .home__inner {
         display: block;
-
     }
 
     .logo{
@@ -370,6 +372,7 @@ body{
     .home__title {
         max-width: 100%;
         margin: auto;
+        padding-top: 32px;
     }
 
     .home__item{
@@ -379,6 +382,10 @@ body{
 
     .home__item img{
         width: 100%;
+    }
+
+    .slider{
+        padding-top: 50px;
     }
 
     .slider__inner{
@@ -403,9 +410,12 @@ body{
         margin-top: 20px;
     }
 
-
-
-
+    .developments{
+        padding-top: 70px;
+    }
+    .seminars {
+        padding: 70px 0 110px 0;
+    }
 }
 
 
@@ -413,24 +423,22 @@ body{
     .developments ul {
         justify-content: flex-start;
     }
+
     .developments ul li{
         max-width: 400px;
-
     }
+
     .developments ul li:nth-child(-n+2){
         margin-bottom: 35px;
     }
-
 
     .footer{
         padding: 75px 0 75px;
     }
 
-
     .footer__link ul{
         margin-top: 20px;
     }
-
 }
 
 
@@ -459,23 +467,15 @@ body{
         padding: 35px 22px;
     }
 
-    .seminars__but p {
-        font-size: 16px;
-        line-height: 22px;
-        margin: 25px 0;
-    }
 
-    .seminars__inner a{
-        margin: auto;
-        width: 100%;
-        max-width: unset;
-        padding: 14px 0;
-        font-size: 12px;
-    }
 
     .seminars__inner{
         margin: auto;
         max-width: 100%;
+    }
+
+    .seminars {
+        padding: 40px 0 70px 0;
     }
 
     .footer{
@@ -539,6 +539,39 @@ body{
         height: 32px;
         border-radius: 15px 15px 0 0;
         left: -7px;
+    }
+
+    .developments {
+        padding-top: 40px;
+    }
+
+    .developments h2{
+        font-size: 21px;
+        line-height: 27px;
+        margin-bottom: 17px;
+    }
+    .developments li h4{
+        font-size: 16px;
+        line-height: 22px;
+
+    }
+
+    .seminars {
+        padding: 20px 0 40px 0;
+    }
+
+    .seminars__but p {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 25px 0;
+    }
+
+    .seminars__inner a{
+        margin: auto;
+        width: 100%;
+        max-width: unset;
+        padding: 14px 0;
+        font-size: 12px;
     }
 
     .seminars__but{
